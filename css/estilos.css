@@ -9,12 +9,12 @@ body{
 }
 
 #cabecera{
-    background: #33A;
+    background: #253E4C;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 #cabecera #logo{
@@ -22,10 +22,13 @@ body{
   vertical-align: middle;
 }
 
+#cabecera #titulo{
+  font-size: 1.5em;
+}
+
 #cabecera #tagline{
     padding: 0 0 0 1em;
-    font-weight: normal;
-    font-size: 0.8em;
+    font-weight: normal;    
 }
 
 #container{
@@ -49,4 +52,5 @@ body{
 	background: #777;
 	color: white;
 	text-align: center;
-	padding: 0.5em;
+	padding: 1em;
+}
